@@ -1,5 +1,5 @@
 let sessionSetting  = {
-    enableRecording : true,
+    enableRecording : false,
 
     recAllowpresentorAVcontrol : true,
     recShowPresentorRecordingStatus : true,

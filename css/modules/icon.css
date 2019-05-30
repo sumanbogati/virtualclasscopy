@@ -824,3 +824,22 @@
     font-family: 'icomoon';
     font-size: 18px;
 }
+
+#virtualclassCont.congrea #docShareNav #totalPages.pageIcon:before {
+  content: "\e99d";
+  font-weight: normal;
+  font-family: 'icomoon';
+  font-size: 17px;
+  margin-right: 10px;
+  left: -25px;
+  top: 5px;
+  position: absolute;
+}
+
+#virtualclassCont.congrea #docShareNav #totalPages.pageIcon .addPage:before {
+  content: "\e99e";
+  font-weight: normal;
+  font-family: 'icomoon';
+  font-size: 12px;
+  margin-left: 10px;
+}
