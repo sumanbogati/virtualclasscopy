@@ -39,7 +39,7 @@
     pageIndexNav.prototype.setTotalPages = function(length){
         var cont = document.querySelector("#docShareNav #totalPages");
         if(cont){
-            cont.innerHTML = "<span id='teacherCurrPage' >"+"Page "+ this.index+"</span> of " + length + "<span id='newPage' class='addPage'></span>";
+            cont.innerHTML = "<span id='teacherCurrPage' >"+this.index+"</span> of " + length + " pages";
         }
     }
 
@@ -213,7 +213,7 @@
         var teacherCurrPage = document.getElementById('teacherCurrPage');
         
         if(teacherCurrPage != null){
-            teacherCurrPage.innerHTML ="Page " + this.index;
+            teacherCurrPage.innerHTML = this.index;
         }
         
     }
@@ -454,7 +454,7 @@
             if (!cont) {
                 var total = document.createElement('span')
                 total.id = "totalPages";
-                total.className = "pages pageIcon";
+                total.className = "pages";
                 dc.insertBefore(total,left);
 
             }  
