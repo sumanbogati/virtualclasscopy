@@ -85,7 +85,7 @@ var colorSelector ={
             // "{border:0 !important;}"+
             "#virtualclassCont.congrea #audioWidget li" +
             "{border-right:"+border +" !important;}"+
-            "#virtualclassCont.congrea .zoomControler div, #virtualclassCont.congrea #virtualclassAppRightPanel #chatWidget .chatBarTab, #virtualclassCont.congrea #audioWidget .audioTool, #virtualclassCont.congrea #networkStatusContainer, " +
+            "#virtualclassCont.congrea #virtualclassAppRightPanel #chatWidget .chatBarTab, #virtualclassCont.congrea #audioWidget .audioTool, #virtualclassCont.congrea #networkStatusContainer, " +
             "#virtualclassCont.congrea #alleditorRichContainerAnch" +
             "{border-left:"+border +" !important;}"+
             "#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a ," +
@@ -183,8 +183,8 @@ var colorSelector ={
             "#virtualclassCont.congrea #docShareNav #totalPages"+
             "{color:"+frontColor+"!important}"+
 
-            "#virtualclassCont.congrea #dcPaging .noteIndex"+
-            "{color:"+frontColor+"!important}"+
+//            "#virtualclassCont.congrea #dcPaging .noteIndex"+
+//            "{color:"+frontColor+"!important}"+
 
             "#virtualclassCont.congrea #docShareNav .pageNav"+
             "{color:"+frontColor+"!important}"+
@@ -227,9 +227,6 @@ var colorSelector ={
             "#virtualclassCont.congrea .vjs-control-bar .vjs-button " +
             "{background:none !important ; border:none !important ;color:white!important}" +
 
-            "#virtualclassCont.congrea  .zoomControler div:hover"+
-            "{background-image: radial-gradient(ellipse at center, "+hover.fcolor+" 0%,"+hover.scolor+" 100%) !important}"+
-
             "#virtualclassCont.congrea  #onlineusertext:before"+
             "{color :"+frontColor +"!important} "+
 
@@ -256,10 +253,8 @@ var colorSelector ={
             "#virtualclassCont.congrea  #playController button"+
             "{background-image:none !important;color:"+frontColor+"!important; border-right: 1px solid "+allbg.fcolor+"!important}"+
             "#virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .shapesToolbox.active"+
-            "{background-image: radial-gradient(ellipse at center, "+active.fcolor+" 0%,"+active.scolor+" 100%);} "+
-            "#virtualclassCont.congrea #dcPaging .noteIndex.active"+
-            "{border : 1px solid"+frontColor+"!important}";
-            this.addCss(css);
+            "{background-image: radial-gradient(ellipse at center, "+active.fcolor+" 0%,"+active.scolor+" 100%);} ";
+             this.addCss(css);
 
     },
 
@@ -384,8 +379,6 @@ var colorSelector ={
             "#virtualclassCont.congrea #virtualclassPoll .modal button.close ," +
             "#virtualclassCont.congrea  .alert .close " +
             "{background-image: none !important ;background-color:none !important}";
-
-        ;
 
         this.addCss(css);
     },
