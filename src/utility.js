@@ -2726,7 +2726,7 @@
                 var virtualclassPreCheck = document.getElementById('preCheckcontainer');
                 virtualclassPreCheck.style.display = 'none';
                 var virtualclassApp = document.getElementById('virtualclassApp');
-                virtualclassApp.style.display = 'block';
+                virtualclassApp.style.display = 'flex';
                 virtualclass.videoHost._resetPrecheck();
 
             } else {
@@ -2735,7 +2735,7 @@
                 var virtualclassPreCheck = document.getElementById('preCheckcontainer');
                 virtualclassPreCheck.style.display = 'none';
                 var virtualclassApp = document.getElementById('virtualclassApp');
-                virtualclassApp.style.display = 'block';
+                virtualclassApp.style.display = 'flex';
                 localStorage.setItem('precheck', true);
                 virtualclass.videoHost.afterSessionJoin();
             }

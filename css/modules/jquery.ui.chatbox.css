@@ -151,11 +151,11 @@
 
 /*css for sticky footer bar*/
 #virtualclassCont.congrea #stickybar {
-    font-size:14px;
+    /* font-size:14px;
     font-weight:bold;
     position:fixed;
     bottom:0;
-    z-index:1000;
+    z-index:1000; */
 }
 #virtualclassCont.congrea #stickybar .footerCtr {
     float: right;
@@ -798,7 +798,7 @@ margin-right:6px !important;
 }
 
 #virtualclassCont.congrea #stickybar{
-  width: calc(100% - 320px); /*changed from 325px */
+  width: 100%;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .ui-state-default .ui-tabs-anchor,
