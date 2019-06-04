@@ -45,12 +45,12 @@ body {
 }
 
 #virtualclassCont.congrea #rightSubContainer #chatWidget .chatBarTab {
-    background-color: #4c5963;
+    /* background-color: #4c5963;
     height: 44px;
     position: fixed;
     width: 320px;
     bottom: 0;
-    z-index:1000;
+    z-index:1000; */
 }
 
 #virtualclassCont.congrea.playMode #rightSubContainer #chatWidget .chatBarTab {
@@ -101,6 +101,8 @@ body {
 }
 #virtualclassCont.congrea #virtualclassAppRightPanel {
     border-left-width: 0;
+    display : inline-block;
+    width : 320px;
 }
 #virtualclassCont.congrea #rightSubContainer, #virtualclassCont #congreaChatMainCont {
 	height : calc(100% - 287px);

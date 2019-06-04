@@ -66,7 +66,7 @@ var precheck = {
             var virtualclassPreCheck = document.getElementById('preCheckcontainer');
             virtualclassPreCheck.style.display = 'none';
             var virtualclassApp = document.getElementById('virtualclassApp');
-            virtualclassApp.style.display = 'block';
+            virtualclassApp.style.display = 'flex';
             // virtualclass.videoHost._resetPrecheck();
             // virtualclass.media.audio.initAudiocontext();
         } else {

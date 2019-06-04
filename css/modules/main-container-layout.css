@@ -6,9 +6,9 @@
   width : calc(100vw - 372px); 
 } */
 
-#virtualclassCont.student #virtualclassAppContainer {
+/* #virtualclassCont.student #virtualclassAppContainer {
   width : calc(100vw - 320px);
-}
+} */
 
 #virtualclassCont #virtualclassAppContainer{
   height : calc(100vh - 44px);

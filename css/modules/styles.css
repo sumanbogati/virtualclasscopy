@@ -2373,17 +2373,21 @@
 	border-width: 0;
 }
 #virtualclassCont.congrea #virtualclassAppLeftPanel {
-	float: none;
+	/* float: none;
 	width: auto;
-	overflow: hidden;
+	overflow: hidden; */
 	/* background-color:#fff; */
+	display : inline-block;
+	width: 100%;
 }
+
 #virtualclassCont.congrea.playMode #virtualclassAppLeftPanel {
-    float:left;
+    width:100%;
 }
+
 #virtualclassCont.congrea #virtualclassAppRightPanel {
 	float : right;
-	width : 320px;
+	/* width : 320px; */
 	height: 99.9vh;
 	border-left: 1px solid #bbb;
 }

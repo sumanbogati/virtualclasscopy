@@ -45,7 +45,7 @@ var gesture = {
         var virtualclassApp = document.querySelector('#virtualclassCont #virtualclassApp');
         var joinClassModal = document.querySelector('#joinClassModal');
 
-        virtualclassApp.style.display = 'block';
+        virtualclassApp.style.display = 'flex';
         joinClassModal.style.display = 'none';
         // virtualclass.media.audioVisual.init();
         virtualclass.media.audio.initAudiocontext();

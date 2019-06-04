@@ -834,3 +834,10 @@
     font-family: 'icomoon';
     font-size: 13px;
 }
+
+#virtualclassCont.congrea .icon-sidebarButton:before {
+  content: "\e96f";
+    font-weight: normal;
+    font-family: 'icomoon';
+    font-size: 18px;
+}
