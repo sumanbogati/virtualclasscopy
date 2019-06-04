@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/ijhofagnokdeoghaohcekchijfeffbjl">
 
 <style>
      @font-face {
               font-family: 'icomoon';
-              src:url('https://live.congrea.net/virtualclass/resources/fonts/icomoon.eot?-jjdyd0');
-              src:url('https://live.congrea.net/virtualclass/resources/fonts/icomoon.eot?#iefix-jjdyd0') format('embedded-opentype'),
-              url('https://live.congrea.net/virtualclass/resources/fonts/icomoon.woff?-jjdyd0') format('woff'),
-              url('https://live.congrea.net/virtualclass/resources/fonts/icomoon.ttf?-jjdyd0') format('truetype'),
-              url('https://live.congrea.net/virtualclass/resources/fonts/icomoon.svg?-jjdyd0#icomoon') format('svg');
+              src:url('https://local.vidya.io/virtualclass/resources/fonts/icomoon.eot?-jjdyd0');
+              src:url('https://local.vidya.io/virtualclass/resources/fonts/icomoon.eot?#iefix-jjdyd0') format('embedded-opentype'),
+              url('https://local.vidya.io/virtualclass/resources/fonts/icomoon.woff?-jjdyd0') format('woff'),
+              url('https://local.vidya.io/virtualclass/resources/fonts/icomoon.ttf?-jjdyd0') format('truetype'),
+              url('https://local.vidya.io/virtualclass/resources/fonts/icomoon.svg?-jjdyd0#icomoon') format('svg');
               font-weight: normal;
               font-style: normal;
           }
@@ -55,7 +56,7 @@ function get_string($phrase) {
 
 //the www path for virtualclass
 
-$whiteboardpath = "https://live.congrea.net/virtualclass/";
+$whiteboardpath = "https://local.vidya.io/virtualclass/";
 
 $cont_class = 'congrea ';
 
