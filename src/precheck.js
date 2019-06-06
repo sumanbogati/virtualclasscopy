@@ -79,7 +79,7 @@ var precheck = {
 
 
             var virtualclassApp = document.getElementById('virtualclassApp');
-            virtualclassApp.style.display = 'block';
+            virtualclassApp.style.display = 'flex';
             localStorage.setItem('precheck', true);
             virtualclass.videoHost.afterSessionJoin();
         }

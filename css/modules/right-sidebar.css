@@ -104,9 +104,15 @@ body {
     display : inline-block;
     width : 320px;
 }
+
+#virtualclassCont.congrea #virtualclassAppRightPanel.moveSidebar {
+    margin-right: -320px;
+}
+
 #virtualclassCont.congrea #rightSubContainer, #virtualclassCont #congreaChatMainCont {
 	height : calc(100% - 287px);
 }
+
 #virtualclassCont.congrea.student #rightSubContainer {
 	height : calc(100% - 288px);
 }

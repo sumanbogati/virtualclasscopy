@@ -93,6 +93,7 @@
                 audioRecWorkerReady: false,
                 wbTool: {},
                 fullScreenMode: false,
+                sidebarRight : true,
                 lastmousemovetime : null,
             },
 
@@ -363,6 +364,21 @@
                 if (fullScreenExitBtn != null) {
                     fullScreenExitBtn.addEventListener('click', virtualclass.vutil.closeFullscreen);
                 }
+
+                var sidebarRightBtn = document.getElementById("sidebarButton");
+                    if(sidebarRightBtn != null) {
+                        sidebarRightBtn.addEventListener('click', function () {
+                            var elem = document.getElementById("virtualclassAppRightPanel");
+                            if (virtualclass.gObj.sidebarRight) {
+                                elem.classList.add("moveSidebar");
+                                virtualclass.gObj.sidebarRight = false;
+                            }else {
+                                elem.classList.remove("moveSidebar");
+                                virtualclass.gObj.sidebarRight = true;
+                            }
+
+                         });
+                    }
 
                 document.onfullscreenchange = function (event) {
                     if (!virtualclass.gObj.fullScreenMode) {
