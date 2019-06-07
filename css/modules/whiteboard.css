@@ -37,10 +37,6 @@
   left: 40%;
 }
 
-#virtualclassCont.congrea.teacher.orginalTeacher[data-currapp="Whiteboard"] #audioWidget {
-  right: 0px;
-}
-
 #virtualclassCont.congrea.student.presenter[data-currapp="Whiteboard"] #audioWidget {
   right: 0px;
 }

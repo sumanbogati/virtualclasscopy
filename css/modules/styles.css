@@ -1172,8 +1172,7 @@
 
 #virtualclassCont.congrea #speakerPressOnce {
 	width: 33.3%;
-    text-align: center !important;
-    height:48px;
+  text-align: center !important;
 }
 
 #virtualclassCont.congrea.student #speakerPressOnce{
@@ -2927,12 +2926,9 @@ virtualclassCont.congrea #virtualclassApp[data-currapp='DocumentShare'].moveSide
 	font-size : 15px;
 }
 
-@media (min-width: 368px){
 	#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget #mainAudioPanel{
 		float:none !important;
-        height:45px !important;
-	}
-}
+  }
 
 /*}*/
 #virtualclassCont.congrea #VideoDashboard #congreaShareVideoUrlCont  #uploadBtnCont,
@@ -2986,7 +2982,7 @@ virtualclassCont.congrea #virtualclassApp[data-currapp='DocumentShare'].moveSide
     font-weight: normal;
 }
 #virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a{
-	padding: 13.5px 19px 9.5px 19px !important;
+	padding: 14px 19px 10px 19px !important;
     width: 100%;
     float: left;
 }
@@ -4542,4 +4538,8 @@ background-color: #d6d6d6;
 
 #virtualclassCont #sidebarButton .sidebarButton {
 	padding:12px;
-} 		
+}
+
+#virtualclassCont.congrea.teacher .canvasWrapper::-webkit-scrollbar {
+  width:5px;
+}

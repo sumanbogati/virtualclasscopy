@@ -6,20 +6,18 @@ body {
     -webkit-font-smoothing: antialiased;
     letter-spacing: 1px;
 }
+
 #audioWidget ul li a {
-    padding-top:13px !important;
-    padding-bottom:12px !important;
+    padding-top:12px !important;
+    padding-bottom:11px !important;
     text-align:center;
 }
 
-#virtualclassCont.congrea #appSettingCtrl :hover {
-   height:55px !important;
+#audioWidget ul li a.appSettingCtrlAnchor {
+  padding-top:12.5px;
+  padding-bottom:11.5px;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget {
-    background: #4c5963 none;
-    height: 48px;
-}
 #virtualclassCont.congrea #audioWidget .settingActive {
     background: #2d3741 none;
 }
@@ -40,18 +38,11 @@ body {
     height : calc(100% - 44px);
     font-family: Helvetica ;
 }
+
 #virtualclassCont.congrea.student #rightSubContainer #appSettingDetail{
     height : calc(100% - 44px);
 }
 
-#virtualclassCont.congrea #rightSubContainer #chatWidget .chatBarTab {
-    /* background-color: #4c5963;
-    height: 44px;
-    position: fixed;
-    width: 320px;
-    bottom: 0;
-    z-index:1000; */
-}
 
 #virtualclassCont.congrea.playMode #rightSubContainer #chatWidget .chatBarTab {
     z-index:0;
@@ -62,14 +53,17 @@ body {
     height : calc(100% - 44px);
     border-left: 1px solid #dfdfdf
 }
+
 #virtualclassCont.congrea.student #rightSubContainer #congreaChatMainCont {
     height : calc(100% - 45px);
 }
+
 
 #virtualclassCont.congrea .vmchat_room_bt.active, #virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button.active {
     background: #2d3741 none;
     height: auto;
 }
+
 #virtualclassCont.congrea #rightSubContainer .prechk {
     border-right-width: 0 !important;
 }
@@ -106,7 +100,7 @@ body {
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel.moveSidebar {
-    margin-right: -320px;
+    width: 80px;
 }
 
 #virtualclassCont.congrea #rightSubContainer, #virtualclassCont #congreaChatMainCont {
@@ -643,26 +637,23 @@ display: none;
     padding: 0.2em 0.42em;
 }
 
-/* Responsive */
-
-@media (min-width: 368px){
-#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget #mainAudioPanel {
-    height: 48px !important;
-    }
-}
 #virtualclassCont.congrea .nowebcam #videoSwitchCont{
 pointer-events: none !important;
 }
+
 #virtualclassCont.congrea.nowebcam.teacher  #videoSwitchCont{
 pointer-events: none !important;
 }
+
 /* to verify */
 #virtualclassCont.congrea.student .videoff #rightSubContainer  {
     height : calc(100% - 284px);
 }
+
 #virtualclassCont.congrea.student #rightSubContainer #congreaChatMainCont {
     height : calc(100% - 44px);
 }
+
 #virtualclassCont.congrea #chatWidget.deactive {
     height: 0;
 }
