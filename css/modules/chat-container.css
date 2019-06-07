@@ -375,7 +375,7 @@ div.ui-memblist-usr .user-details  img.media-object{
     cursor: pointer;
 }
 
-#virtualclassAppRightPanel.moveSidebar .ui-memblist-usr .user-details .usern {
+:host(.movedSidebar) .ui-memblist-usr .user-details .usern {
   display:none
 }
 

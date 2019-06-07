@@ -368,13 +368,17 @@
                 var sidebarRightBtn = document.getElementById("sidebarButton");
                     if(sidebarRightBtn != null) {
                         sidebarRightBtn.addEventListener('click', function () {
-                            var elem = document.getElementById("virtualclassAppRightPanel");
+                          var elem = document.getElementById("virtualclassAppRightPanel");
+                          var chat_div = document.getElementById("chat_div");
                             if (virtualclass.gObj.sidebarRight) {
                                 elem.classList.add("moveSidebar");
                                 virtualclass.gObj.sidebarRight = false;
+                                chat_div.classList.add("movedSidebar");
+                                
                             }else {
                                 elem.classList.remove("moveSidebar");
                                 virtualclass.gObj.sidebarRight = true;
+                                chat_div.classList.remove("movedSidebar");
                             }
 
                          });
