@@ -100,7 +100,7 @@ div.ui-memblist-usr video, div.ui-memblist-usr .userVideos {
 /** 3857 **/
 
 div.ui-memblist-usr .user-details  .media-object {
-    display : block;
+    /* display : block;
     text-align: center;
     padding-top: 11px;
     margin-top: 6px;
@@ -112,7 +112,16 @@ div.ui-memblist-usr .user-details  .media-object {
     height : auto;
     margin: 5px 5px 5px 2px;
     object-fit: cover;
-    padding : 10px 0px;
+    padding : 10px 0px; */
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    border: solid 1px transparent;
+    border-radius: 30px;
+    width: 42px;
+    height: 42px;
+    margin: 5px 5px 5px 2px;
+    line-height: 37px;
 }
 
 div.ui-memblist-usr .user-details  img.media-object{
@@ -349,7 +358,7 @@ div.ui-memblist-usr .user-details  img.media-object{
     letter-spacing: 0.5px;
 }
 
-.ui-memblist-usr .user-details .usern {
+:host .ui-memblist-usr .user-details .usern {
     width: 40%;
     float: left;
     font-size: 14px;
@@ -364,6 +373,10 @@ div.ui-memblist-usr .user-details  img.media-object{
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     cursor: pointer;
+}
+
+#virtualclassAppRightPanel.moveSidebar .ui-memblist-usr .user-details .usern {
+  display:none
 }
 
 .ui-memblist-usr a span{

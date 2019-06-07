@@ -3073,6 +3073,10 @@ virtualclassCont.congrea #virtualclassApp[data-currapp='DocumentShare'].moveSide
     text-align:center !important;
 }
 
+#virtualclassCont.congrea.orginalTeacher #virtualclassAppRightPanel.moveSidebar #audioWidget #mainAudioPanel li{
+  width:100%;
+}
+
 #virtualclassCont.congrea.student #virtualclassAppRightPanel #mainAudioPanel li {
 	width : 33.3%;
 }

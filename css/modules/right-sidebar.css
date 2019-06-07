@@ -13,7 +13,7 @@ body {
     text-align:center;
 }
 
-#audioWidget ul li a.appSettingCtrlAnchor {
+#audioWidget ul li a#appSettingCtrlAnchor {
   padding-top:12.5px;
   padding-bottom:11.5px;
 }
@@ -35,7 +35,7 @@ body {
 #virtualclassCont.congrea #rightSubContainer #appSettingDetail{
     display : none;
     overflow: auto;
-    height : calc(100% - 44px);
+    height : calc(100% - 43px);
     font-family: Helvetica ;
 }
 
@@ -50,7 +50,7 @@ body {
 
 #virtualclassCont.congrea #rightSubContainer #congreaChatMainCont {
 /*    display:none;*/
-    height : calc(100% - 44px);
+    height : calc(100% - 43px);
     border-left: 1px solid #dfdfdf
 }
 
@@ -124,6 +124,11 @@ body {
 #virtualclassCont.congrea.teacher.nowebcam #rightSubContainer, #virtualclassCont.congrea.student.videoff #rightSubContainer{
 	height : calc(100% - 48px);
 }
+
+#virtualclassCont.congrea.teacher.nowebcam #virtualclassAppRightPanel.moveSidebar #rightSubContainer, #virtualclassCont.congrea.student.videoff #virtualclassAppRightPanel.moveSidebar #rightSubContainer{
+	height : calc(100% - 143px);
+}
+
 #virtualclassCont.congrea .vidHide #rightSubContainer {
 	height : calc(100% - 48px) !important;
 }
@@ -131,18 +136,24 @@ body {
     height:100% !important;
 }
 #virtualclassCont .footerCtr {
-    position: absolute;
-    bottom: 49px;
-    width: 100%;
-    text-align: right;
-    background: #fff;
-    margin: 0;
     padding: 7px 0 7px;
     z-index: 1000;
+     position: absolute;
+     bottom: 49px;
+     width: 100%;
+     text-align: right;
+     background: #fff;
+     margin: 0;
 } 
+
+#virtualclassCont #virtualclassAppRightPanel.moveSidebar .footerCtr {
+  display:none;
+}
+
 #virtualclassCont.playMode.student .footerCtr {
     bottom:55px;
 }
+
 #virtualclassCont .footerCtr input {
     padding: 7px;
     width: 90%;

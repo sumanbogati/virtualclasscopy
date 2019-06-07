@@ -664,17 +664,25 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
     height:calc(100vh - 153px);
     margin: 0px;
 }
+
+#virtualclassCont.congrea.teacher.nowebcam #virtualclassAppRightPanel.moveSidebar #chat_room {
+    height: calc(100vh - 249px);
+}
+
 #virtualclassCont.congrea.teacher .vidHide #chat_room {
     height: calc(100vh - 160px);
     margin: 0px;
 /*    pointer-events: none;*/
 }
+
 #virtualclassCont.congrea.student .vidHide #chat_room {
     height: calc(100vh - 160px) !important;
 }
+
 #virtualclassCont.congrea.student #chat_room {
     height: calc(100vh - 400px) !important;
 }
+
 #virtualclassCont.videoff.student #chat_room {
     height: calc(100vh - 106px) !important;
 }
@@ -842,12 +850,19 @@ margin-right:6px !important;
 #virtualclassCont.congrea #chat_div {
     height: calc(100vh - 388px);
 }
+
 #virtualclassCont.congrea .vidHide #chat_div, #virtualclassCont.congrea.nowebcam.teacher #chat_div {
     height: calc(100vh - 148px);
 }
+
+#virtualclassCont.congrea .vidHide #chat_div, #virtualclassCont.congrea.nowebcam.teacher #virtualclassAppRightPanel.moveSidebar #chat_div {
+    height: calc(100vh - 244px);
+}
+
 #virtualclassCont.congrea.teacher #chatroom_bt2 .inner_bt #chatroom_text {
     margin-left:7px;
 }
+
 #virtualclassCont.congrea .user-details.media-body a:hover {
     text-decoration: none;
 }

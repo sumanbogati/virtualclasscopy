@@ -75,8 +75,7 @@
 
             var border = "0.05em solid " + allbg.fcolor
             var css =
-                "#virtualclassCont.congrea #virtualclassOptionsCont .appOptions, #virtualclassCont.congrea #audioWidget" +
-                "{border-top:" + border + " !important;}" +
+
                 "#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapesTool .tool a" +
                 "{border-bottom:" + border + " !important;}" +
                 "#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapes_icon a" +
