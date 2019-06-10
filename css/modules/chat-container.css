@@ -5,7 +5,7 @@
 }
 
 .ui-memblist-usr#subchat.student, .ui-memblist-usr, .ui-memblist-usr#subchat.teacher{
-    padding-left : 13px;
+    margin: 0 17px;
 }
 
 div.ui-memblist-usr video {

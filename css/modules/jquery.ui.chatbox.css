@@ -853,6 +853,7 @@ margin-right:6px !important;
 
 #virtualclassCont.congrea .vidHide #chat_div, #virtualclassCont.congrea.nowebcam.teacher #chat_div {
     height: calc(100vh - 148px);
+    overflow-x: hidden;
 }
 
 #virtualclassCont.congrea .vidHide #chat_div, #virtualclassCont.congrea.nowebcam.teacher #virtualclassAppRightPanel.moveSidebar #chat_div {

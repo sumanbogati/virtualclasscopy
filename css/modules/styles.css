@@ -1246,6 +1246,7 @@
 #virtualclassCont.congrea .ui-widget.enable {
 	opacity : 1;
 	position:relative;
+	left:0;
 }
 
 #virtualclassCont.congrea #virtualclassOptionsCont, .congtooltip {
@@ -4569,4 +4570,8 @@ background-color: #d6d6d6;
 
 #virtualclassCont.congrea #virtualclassAppRightPanel.moveSidebar #audioWidget {
     background-image: none !important;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel.moveSidebar #mainAudioPanel li a:hover {
+	background-color:none !important;
 }
