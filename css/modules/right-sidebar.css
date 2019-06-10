@@ -110,11 +110,13 @@ body {
 #virtualclassCont.congrea.student #rightSubContainer {
 	height : calc(100% - 288px);
 }
+
 #virtualclassCont.congrea.playMode #rightSubContainer, #virtualclassCont #congreaChatMainCont {
     height : calc(100% - 240px);
 }
+
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget {
-    background: #4c5863 none !important;
+    background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%) !important;
 }
 
 #virtualclassCont.congrea.videoff #rightSubContainer, #virtualclassCont.videoff #congreaChatMainCont {

@@ -271,6 +271,10 @@
   width: 100%;
 }
 
+#virtualclassCont.congrea.teacher #virtualclassAppRightPanel.moveSidebar #audioWidget {
+  margin-top:50px;
+}
+
 #virtualclassCont.congrea .suggestion,
 #virtualclassCont.congrea .latency,
 #virtualclassCont.congrea .quality{

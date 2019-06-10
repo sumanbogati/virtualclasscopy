@@ -86,7 +86,7 @@
                 "{border-right:" + border + " !important;}" +
                 "#virtualclassCont.congrea #virtualclassAppRightPanel #chatWidget .chatBarTab, #virtualclassCont.congrea #audioWidget .audioTool, #virtualclassCont.congrea #networkStatusContainer, " +
                 "#virtualclassCont.congrea #alleditorRichContainerAnch" +
-                "{border-left:" + border + " !important;}" +
+                "{border-left:" + border + ";}" +
                 "#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a ," +
                 "#virtualclassCont.congrea #audioWidget li," +
                 "#virtualclassCont.congrea #virtualclassAppRightPanel #chatWidget .chatBarTab li " +
@@ -250,6 +250,8 @@
                 "{background-image: linear-gradient(to bottom, " + hover.fcolor + " 0%," + hover.scolor + " 100%) !important;color:" + frontColor + "!important}" +
                 "#virtualclassCont.congrea  #playController button" +
                 "{background-image:none !important;color:" + frontColor + "!important; border-right: 1px solid " + allbg.fcolor + "!important}" +
+                "#virtualclassCont.congrea #virtualclassAppRightPanel.moveSidebar #chatWidget .chatBarTab, #virtualclassCont.congrea #audioWidget .audioTool" +
+                "{border-left:none !important}" +
                 "#virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .shapesToolbox.active" +
                 "{background-image: radial-gradient(ellipse at center, " + active.fcolor + " 0%," + active.scolor + " 100%);} ";
             this.addCss(css);
@@ -291,7 +293,6 @@
 
         makeThemeReadyRightPanel: function (frontColor, allbg, active, hover) {
             var css = "#virtualclassCont.congrea #recordPlay .rv-vanilla-modal-body #downloadPcCont #downloadSessionText," +
-                "#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget" +
                 "{background-image: linear-gradient(to bottom, " + allbg.fcolor + " 0%," + allbg.scolor + " 100%) !important}" +
                 "#virtualclassCont.congrea #chatWidget .chatBarTab" +
                 "{background: linear-gradient(to bottom, " + allbg.fcolor + " 0%," + allbg.scolor + " 100%) !important}" +

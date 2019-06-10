@@ -4535,9 +4535,10 @@ background-color: #d6d6d6;
 }
 
 #virtualclassCont #sidebarButton {
-	float:right;
-	position: relative;
-    top: -44px;
+	position: fixed;
+    top: 1px;
+    z-index: 10000000;
+    right: 290px;
 }
 
 #virtualclassCont #sidebarButton .sidebarButton {
@@ -4546,4 +4547,8 @@ background-color: #d6d6d6;
 
 #virtualclassCont.congrea.teacher .canvasWrapper::-webkit-scrollbar {
   width:5px;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel.moveSidebar #audioWidget {
+    background-image: none !important;
 }
