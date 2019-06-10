@@ -178,6 +178,10 @@
                 "#virtualclassCont.congrea .cgIcon:before" +
                 "{color:" + frontColor + "!important}" +
 
+                "#virtualclassCont.congrea #virtualclassAppRightPanel.moveSidebar .cgIcon:before" +
+                "{color: #000 !important}" +
+
+
                 "#virtualclassCont.congrea #docShareNav #totalPages" +
                 "{color:" + frontColor + "!important}" +
 
@@ -306,7 +310,7 @@
                 "#virtualclassCont.congrea #audioTest-box:hover," +
                 "#virtualclassCont.congrea #playButton:hover, " +
                 "#virtualclassCont.congrea #alwaysPress:hover" +
-                "{background-image: radial-gradient(ellipse at center, " + hover.fcolor + " 0%," + hover.scolor + " 100%) !important}" +
+                "{background-image: radial-gradient(ellipse at center, " + hover.fcolor + " 0%," + hover.scolor + " 100%) }" +
 
                 "#virtualclassCont.congrea .vmchat_support.active ," +
                 "#virtualclassCont.congrea .vmchat_room_bt.active," +
@@ -375,7 +379,9 @@
                 "#virtualclassCont.congrea #virtualclassPoll #navigator #stdPollHeader" +
                 "{color:" + frontColor + "!important;}" +
                 "#virtualclassCont.congrea #virtualclassPoll .modal button.close ," +
-                "#virtualclassCont.congrea  .alert .close " +
+                "#virtualclassCont.congrea  .alert .close , " + 
+                "#virtualclassCont.congrea #virtualclassAppRightPanel.moveSidebar #mainAudioPanel li:hover ," +
+                "#virtualclassCont.congrea #virtualclassAppRightPanel.moveSidebar #mainAudioPanel li a:hover" +
                 "{background-image: none !important ;background-color:none !important}";
 
             this.addCss(css);

@@ -5,7 +5,7 @@
 }
 
 .ui-memblist-usr#subchat.student, .ui-memblist-usr, .ui-memblist-usr#subchat.teacher{
-    padding-left : 4px;
+    padding-left : 13px;
 }
 
 div.ui-memblist-usr video {
@@ -118,8 +118,8 @@ div.ui-memblist-usr .user-details  .media-object {
     font-size: 14px;
     border: solid 1px transparent;
     border-radius: 30px;
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
     margin: 5px 5px 5px 2px;
     line-height: 37px;
 }
@@ -410,6 +410,10 @@ div.ui-memblist-usr .user-details  img.media-object{
     /*    background-image: linear-gradient(135deg, #f5f7fa 0%, #f0ededfa 100%); */
 }
 
+:host(.movedSidebar) .ui-memblist-usr.mySelf {
+  background-image:none;
+}
+
 .text {
     color: #464646;
     letter-spacing: 0.5px;
@@ -545,6 +549,10 @@ div.ui-memblist-usr .user-details  img.media-object{
 
 :host([data-currapp="EditorRich"]) .icon-chatImg.chatImg{
     margin-right:7px !important;
+}
+
+:host(.movedSidebar) .ui-memblist-usr.online .controls {
+  display:none;
 }
 
 
